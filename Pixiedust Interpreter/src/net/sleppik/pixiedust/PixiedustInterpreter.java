@@ -91,8 +91,6 @@ public class PixiedustInterpreter implements Runnable {
 		
 		HashMap<String, Integer> labels = new HashMap<>();
 		for (int i = 0; i < code.length; i++) {
-			if (code[i].startsWith("+."))
-				labels.put(code[i].substring(2), i);
 			if (code[i].matches("[^*+.]"))
 				throw new PixiedustSyntaxError(lm(i) + "only the characters *+. and whitespace are allowed.");
 			switch (code[i].charAt(0)) {
