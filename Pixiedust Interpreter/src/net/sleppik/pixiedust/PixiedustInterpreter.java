@@ -131,6 +131,9 @@ public class PixiedustInterpreter implements Runnable {
 					if (written.length != 1)
 						throw new PixiedustSyntaxError(lm(i) + (written.length > 1 ? "extraneous" : "missing") +
 														" parameter for print statement");
+					break;
+				case '.':
+					labels.put(code[i].substring(2));
 				}
 				break;
 			
