@@ -1,6 +1,6 @@
 # Pixiedust, an esolang by Stephen Leppik
 
-Pixiedust is an esolang so named because I designed it to look like pixie dust. It was created so that, when asked what tells a computer what to do, the answer "fairies and pixie dust" wouldn't be completely wrong.
+Pixiedust is an esolang so named because I designed it to look like pixie dust. It was created so that, when asked what tells a computer what to do, the answer ["fairies and pixie dust"](https://meta.stackoverflow.com/a/374624/6388243) wouldn't be completely wrong.
 
 This language uses the characters `*+.`. Any other non-whitespace characters will result in a syntax error. This is an assembly language with instructions separated by newlines.
 
