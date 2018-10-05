@@ -131,7 +131,7 @@ public class PixiedustInterpreter implements Runnable {
 														" parameter for print statement");
 					break;
 				case '.':
-					labels.put(code[i].substring(2));
+					labels.put(code[i].substring(2), i);
 				}
 				break;
 			
